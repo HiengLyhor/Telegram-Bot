@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-30T03:51:07.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_DjJ3OCoVgeFoaoyCjJb" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-30T03:52:51.835Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="lmdv8laz3-PmVrmPsa-O" version="24.3.1" type="github">
   <diagram name="Page-1" id="3qRTYB-W6DVtZSkNG54B">
     <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,13 +73,13 @@
             <mxPoint x="600" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3gx5oRPi2DEivFw2YjSp-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Explore product&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="3gx5oRPi2DEivFw2YjSp-17" value="/Explore" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="600" y="40" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3gx5oRPi2DEivFw2YjSp-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Get Price product&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="600" y="100" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3gx5oRPi2DEivFw2YjSp-19" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Get Feedback&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="3gx5oRPi2DEivFw2YjSp-19" value="/GetFeedback" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="600" y="160" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3gx5oRPi2DEivFw2YjSp-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -177,12 +177,6 @@
               <mxPoint x="750" y="370" />
               <mxPoint x="750" y="25" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3gx5oRPi2DEivFw2YjSp-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="499.66" as="sourcePoint" />
-            <mxPoint x="120" y="499.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3gx5oRPi2DEivFw2YjSp-51" value="Buy confirm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -357,6 +351,12 @@
         </mxCell>
         <mxCell id="3gx5oRPi2DEivFw2YjSp-106" value="User action" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="780" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3gx5oRPi2DEivFw2YjSp-107" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3gx5oRPi2DEivFw2YjSp-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="500" as="sourcePoint" />
+            <mxPoint x="90" y="450" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
